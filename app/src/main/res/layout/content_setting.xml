@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ocnyang.qbox.app.module.setting.SettingActivity"
+    tools:showIn="@layout/activity_setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Setting.Title"
+            android:text="通用设置" />
+
+        <LinearLayout
+            android:id="@+id/sllms_setting"
+            style="@style/Setting.Linear"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Setting.Name"
+                    android:text="省流量模式" />
+
+                <TextView
+                    style="@style/Setting.Info"
+                    android:text="关闭加载网络图片" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/switch_sllms_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_color" />
+
+        <LinearLayout
+            android:id="@+id/qchc_setting"
+            style="@style/Setting.Linear"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Setting.Name"
+                    android:text="清除缓存" />
+
+                <TextView
+                    style="@style/Setting.Info"
+                    android:text="清除图片缓存、数据缓存等" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_qchc_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="0 kb"
+                android:textColor="@color/secondary_text"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qlcz_setting"
+            style="@style/Setting.Linear"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Setting.Name"
+                android:text="重置数据" />
+
+            <TextView
+                style="@style/Setting.Info"
+                android:ellipsize="end"
+                android:text="将恢复到初始模式：清除用户信息、设置、缓存等所有数据" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weatheraddress_setting"
+            style="@style/Setting.Linear"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Setting.Name"
+                android:text="天气地点" />
+
+            <TextView
+                style="@style/Setting.Info"
+                android:ellipsize="end"
+                android:text="在这里设置你想获取哪些地点的天气" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_color" />
+
+        <TextView
+            android:id="@+id/share_setting"
+            style="@style/Setting.Linear.Name"
+            android:text="分享" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_color" />
+
+        <TextView
+            android:id="@+id/exit_setting"
+            style="@style/Setting.Linear"
+            android:gravity="center"
+            android:text="退出"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
