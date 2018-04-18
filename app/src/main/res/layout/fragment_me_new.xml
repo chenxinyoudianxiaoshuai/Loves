@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -35,7 +36,8 @@
                 android:paddingBottom="30dp"
                 android:text="雪意满芳洲，松林驻远情。"
                 android:textColor="@android:color/white"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+                tools:text="雪意满芳洲，松林驻远情" />
 
 
         </FrameLayout>
@@ -66,7 +68,7 @@
                 android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:lines="1"
-                android:text="雪意满芳洲，松林驻远情。"
+                android:text="锦城不似桃源乐"
                 android:textColor="@android:color/white"/>
 
         </LinearLayout>

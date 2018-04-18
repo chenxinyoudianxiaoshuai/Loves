@@ -34,7 +34,7 @@
 
             <TextView
                 style="@style/Setting.Title"
-                android:text="小秋魔盒账号"/>
+                android:text="LoveCedar" />
 
             <LinearLayout
                 android:id="@+id/phone_account"

@@ -15,12 +15,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-/*******************************************************************
- * * * * *   * * * *   *     *       Created by OCN.Yang
- * *     *   *         * *   *       Time:2017/2/16 10:15.
- * *     *   *         *   * *       Email address:ocnyang@gmail.com
- * * * * *   * * * *   *     *.Yang  Web site:www.ocnyang.com
- *******************************************************************/
 
 
 public class DefaultStyleItemAdapter extends BaseQuickAdapter<WechatItem.ResultBean.ListBean, BaseViewHolder> {
@@ -45,7 +39,7 @@ public class DefaultStyleItemAdapter extends BaseQuickAdapter<WechatItem.ResultB
     @Override
     protected void convert(BaseViewHolder helper, WechatItem.ResultBean.ListBean item) {
         helper.setText(R.id.title_news_item, item.getTitle())
-                .setText(R.id.from_news_item, "小秋魔盒")
+                .setText(R.id.from_news_item, "LoveCedar")
                 .setText(R.id.time_news_item, onFormatTime(item.getPubTime()));
 
         if (!isNotLoad) {

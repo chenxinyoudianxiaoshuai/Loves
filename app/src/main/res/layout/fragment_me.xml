@@ -64,7 +64,7 @@
                 android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:lines="1"
-                android:text="雪意满芳洲，松林驻远情。"
+                android:text="锦城不似桃源乐"
                 android:textColor="@android:color/white" />
 
         </LinearLayout>

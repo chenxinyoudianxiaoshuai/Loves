@@ -214,7 +214,6 @@
     <string name="open_info">开源许可</string>
     <string name="statement">声明</string>
     <string name="statement_title">\LoveCedar是一款生活类（微信精选/美文/笑话/星座运势等等）、工具类（日历/二维码/手电筒/老黄历/手机号查询等等）的应用。\n
-        \tAndroid 开发者 OCNYang(欧神.杨) 的个人开发作品。\n
         \LoveCedar尽量以一种简洁纯粹的界面来展现给用户，同时也尽可能多的为用户提供 生活常用的工具和服务。</string>
     <string name="statement_userinfo">本软件提供给任何个人免费使用和分享，任何个人都有使用本软件中提供的所有功能。本软件不允许任何组织或公司用于其他用途。\n
         在使用过程中禁止作者外的任何个人或组织或公司或其他群体对本软件进行反编译或修改。</string>
@@ -230,7 +229,7 @@
     <string name="title_activity_about_me">关于LoveS</string>
     <string name="statement_import">\</string>
     <string name="wechat_select">微信精选</string>
-    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_news">LoveCedar</string>
 
 
     <!--天气模块-->
